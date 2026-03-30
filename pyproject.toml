@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "weathercli"
+version = "0.0.1"
+dependencies = ['requests']
+
+[project.scripts]
+todo = "weathercli.main:main"
